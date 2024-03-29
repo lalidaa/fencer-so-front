@@ -259,8 +259,3 @@ const AddIconButtonText = styled.h1`
 const GoalIconContainer = styled.div<GoalIconContainerProps>`
   display: ${(props) => (props.shouldShow ? 'flex' : 'none')};
 `
-
-const EmojiIcon = styled.span`
-  font-size: 2rem;
- 
-`
