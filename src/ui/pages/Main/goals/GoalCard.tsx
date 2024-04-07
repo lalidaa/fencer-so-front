@@ -11,9 +11,6 @@ import { Card } from '../../../components/Card'
 
 type Props = { id: string }
 
-const Icon = styled.h1`
-  font-size: 5.5rem;
-`;
 
 export default function GoalCard(props: Props) {
   const dispatch = useAppDispatch()
@@ -59,3 +56,7 @@ const TargetDate = styled.h4`
   color: rgba(174, 174, 174, 1);
   font-size: 1rem;
 `
+
+const Icon = styled.h1`
+  font-size: 5.5rem;
+`;
