@@ -32,11 +32,13 @@ export function GoalManager(props: Props) {
 
   useEffect(() => {
     setName(props.goal.name)
+    setIcon(props.goal.icon)
     setTargetDate(props.goal.targetDate)
     setTargetAmount(props.goal.targetAmount)
   }, [
     props.goal.id,
     props.goal.name,
+    props.goal.icon,
     props.goal.targetDate,
     props.goal.targetAmount,
   ])
