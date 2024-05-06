@@ -9,7 +9,7 @@ export const store = configureStore({
     goals: goalsReducer,
     modal: modalReducer,
     theme: themeReducer,
-    user: userReducer,
+    user: userReducer
   },
 })
 
@@ -21,3 +21,5 @@ export type AppThunk<ReturnType = void> = ThunkAction<
   unknown,
   Action<string>
 >
+
+

@@ -22,6 +22,7 @@ export const themeSlice = createSlice({
   },
 })
 
+
 export const { setLightMode, setDarkMode } = themeSlice.actions
 
 export const selectMode = (state: RootState) => state.theme.mode
