@@ -39,9 +39,7 @@ export default function App() {
       <ThemeProviderMui theme={muiTheme}>
         <ThemeProvider theme={mode === 'light' ? LightTheme : DarkTheme}>
           <GlobalStyle />
-
           <Main />
-
           <ModalContainer isOpen={modalIsOpen}>
             <Modal />
           </ModalContainer>
